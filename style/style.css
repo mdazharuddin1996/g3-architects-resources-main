@@ -12,13 +12,26 @@ body {
     font-weight: 400;
     font-style: normal;
 }
-/* shared style */
+/*--------- shared style start-------------*/
 .display-flex{
     display: flex;
 }
 .dark-2{
     color: #424242;
 }
+.btn-primary{
+    padding: 10px 20px;
+    border: none;
+    margin: 20px 0;
+    border-radius: 8px;
+    color: white;
+    background: rgb(255, 144, 14);
+}
+.btn-primary:hover{
+    background: rgb(226, 181, 129);
+    color: #424242;
+}
+/*------------ shared style end ------------*/
 
 /* header */
 .header{
