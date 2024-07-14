@@ -19,6 +19,10 @@ body {
 .dark-2{
     color: #424242;
 }
+
+.dark-3{
+    color: #727272;
+}
 .btn-primary{
     padding: 10px 20px;
     border: none;
@@ -26,6 +30,9 @@ body {
     border-radius: 8px;
     color: white;
     background: rgb(255, 144, 14);
+}
+.background-color{
+    background: rgba(255, 144, 14, 0.1);
 }
 .btn-primary:hover{
     background: rgb(226, 181, 129);
@@ -35,7 +42,6 @@ body {
 
 /* header */
 .header{
-background: rgba(255, 144, 14, 0.1);
 width: 80%;
 margin: 0 auto;
 padding: 50px 150px;
@@ -53,7 +59,7 @@ padding: 50px 150px;
 }
 .list-items a{
     text-decoration: none;
-    font-weight: 500;
+    font-weight: 700;
 }
 .item{
     margin-right: 60px;
@@ -76,3 +82,39 @@ padding: 50px 150px;
 .banner img{
     width: 100%;
 }
+/* teams start*/
+.teams,.teams-container{
+    width: 70%;
+    padding: 20px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.team-content-title{
+    margin-bottom: 20px;
+}
+.features{
+    color: #FF900E;
+}
+/* teams end*/
+
+
+/* Responsive design start */
+@media screen and (max-width:576px){
+    .display-flex{
+        flex-direction: column;
+    }
+        .header {
+            width: 95%;
+            padding: 20px;
+        }
+        .banner-content{
+            width: 90%;
+        }
+                .banner-title {
+                    font-size: 1.5em;
+                    margin: 20px 0;
+                }
+}
+/* Responsive design end */
