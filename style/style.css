@@ -117,4 +117,15 @@ padding: 50px 150px;
                     margin: 20px 0;
                 }
 }
+@media screen and (min-width:576px)and (max-width:992px){
+    .header {
+            width: 95%;
+            padding: 20px;
+        }
+.teams{
+    flex-direction: column;
+}
+}
+    
+
 /* Responsive design end */
