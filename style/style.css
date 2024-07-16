@@ -98,9 +98,112 @@ padding: 50px 150px;
     color: #FF900E;
 }
 /* teams end*/
+/* features-you-will-love-container */
+.features-you-will-love-container{
+    width: 70%;
+    margin: 0 auto;
+    gap: 50px;
+}
+.feature-content{
+    padding-left: 30px;
+        width: 50%;
+        height: 100%;
+}
+.feature-content-title{
+    border-left: 2px solid #FF900E;
+    padding-left: 20px;
+}
+.description{
+    margin: 20px 5px;
+}
+.item:last-child {
+    background-color: #424242;
+    margin: 0;
+    color: white;
+}
+.features-pic{
+    width: 50%;
+}
+#architect-pic{
+    width: 100%;
+    height: 100%;
+}
+.item{
+    box-shadow: 2px 1px 2px rgb(236, 234, 230);
+    border-radius: 12px;
+    padding: 10px;
+    margin-bottom: 30px;
+}
 
 
 /* Responsive design start */
+
+@media screen and (min-width:993px)and (max-width:1500px) {
+    .header {
+        width: 95%;
+        padding: 20px;
+    }
+
+    /* .teams {
+        flex-direction: column;
+    } */
+
+    .features-pic {
+        width: 100%;
+    }
+
+    .item {
+        box-shadow: 2px 1px 2px rgb(236, 234, 230);
+        border-radius: 12px;
+        padding: 10px;
+        margin-bottom: 10px;
+        width: 100%;
+    }
+
+    /* .features-you-will-love-container {
+        flex-direction: column-reverse;
+    } */
+
+    .feature-content {
+        padding: 10px;
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media screen and (min-width:576px)and (max-width:992px) {
+    .header {
+        width: 95%;
+        padding: 20px;
+    }
+
+    .teams {
+        flex-direction: column;
+    }
+
+    .features-pic {
+        width: 100%;
+    }
+
+    .item {
+        box-shadow: 2px 1px 2px rgb(236, 234, 230);
+        border-radius: 12px;
+        padding: 10px;
+        margin-bottom: 10px;
+        width: 100%;
+    }
+
+    .features-you-will-love-container {
+        flex-direction: column-reverse;
+    }
+
+    .feature-content {
+        padding: 10px;
+        width: 100%;
+        height: 100%;
+    }
+}
+
 @media screen and (max-width:576px){
     .display-flex{
         flex-direction: column;
@@ -116,16 +219,31 @@ padding: 50px 150px;
                     font-size: 1.5em;
                     margin: 20px 0;
                 }
+                       .features-pic {
+                   width: 100%;
+                  }
+.item {
+    box-shadow: 2px 1px 2px rgb(236, 234, 230);
+    border-radius: 12px;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 100%;
 }
-@media screen and (min-width:576px)and (max-width:992px){
-    .header {
-            width: 95%;
-            padding: 20px;
-        }
-.teams{
-    flex-direction: column;
+
+.features-you-will-love-container{
+    flex-direction: column-reverse;
 }
+
+.feature-content {
+    padding: 10px;
+    width: 100%;
+    height: 100%;
 }
-    
+
+}
+
+
+
+
 
 /* Responsive design end */
