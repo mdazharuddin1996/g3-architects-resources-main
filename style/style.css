@@ -248,6 +248,7 @@ padding: 50px 150px;
     height: 100%;
 }
 .year10 {
+    bottom: 0;
     margin-top: 20px;
 }
 }
