@@ -143,6 +143,36 @@ padding: 50px 150px;
     position: relative;
     bottom: 100px;
 }
+.same-fact-container{
+    width: 85%;
+    margin: 0 auto;
+    padding: 10px 150px;
+}
+.same-fact-content{
+    width: 50%;
+    margin-bottom: 100px;
+}
+.same-fact-icons{
+    gap: 50px;
+    margin-top: 20px;
+
+    justify-content: center;
+    align-items: center;
+}
+.same-fact-item{
+    border: 1px solid slategray;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 8px;
+}
+.same-fact-item>h1{
+    margin: 10px 0;
+}
 
 /* Responsive design start */
 
