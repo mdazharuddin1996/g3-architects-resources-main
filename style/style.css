@@ -116,7 +116,7 @@ padding: 50px 150px;
 .description{
     margin: 20px 5px;
 }
-.item:last-child {
+.item-2:last-child {
     background-color: #424242;
     margin: 0;
     color: white;
@@ -128,7 +128,7 @@ padding: 50px 150px;
     width: 100%;
     height: 100%;
 }
-.item{
+.item-2{
     box-shadow: 2px 1px 2px rgb(236, 234, 230);
     border-radius: 12px;
     padding: 10px;
@@ -155,7 +155,6 @@ padding: 50px 150px;
 .same-fact-icons{
     gap: 50px;
     margin-top: 20px;
-
     justify-content: center;
     align-items: center;
 }
@@ -173,6 +172,21 @@ padding: 50px 150px;
 .same-fact-item>h1{
     margin: 10px 0;
 }
+.sponsors-container{
+    text-align: center;
+}
+.sponsors-container>h1{
+    margin: 30px 0;
+}
+.sponsors-list>ul>li{
+    list-style: none;
+}
+.sponsors-list>ul>li>a{
+    text-decoration: none;
+}
+.sponsors-list>ul>li>a>img{
+    width: 150px;
+}
 
 /* Responsive design start */
 
@@ -182,15 +196,15 @@ padding: 50px 150px;
         padding: 20px;
     }
 
-    /* .teams {
+    .teams {
         flex-direction: column;
-    } */
+    }
 
     .features-pic {
         width: 100%;
     }
 
-    .item {
+    .item-2{
         box-shadow: 2px 1px 2px rgb(236, 234, 230);
         border-radius: 12px;
         padding: 10px;
@@ -199,9 +213,9 @@ padding: 50px 150px;
         border-radius: 10px;
     }
 
-    /* .features-you-will-love-container {
+    .features-you-will-love-container {
         flex-direction: column-reverse;
-    } */
+    }
 
     .feature-content {
         padding: 10px;
@@ -224,7 +238,7 @@ padding: 50px 150px;
         width: 100%;
     }
 
-    .item {
+    .item-2 {
         box-shadow: 2px 1px 2px rgb(236, 234, 230);
         border-radius: 12px;
         padding: 10px;
@@ -261,7 +275,7 @@ padding: 50px 150px;
                        .features-pic {
                    width: 100%;
                   }
-.item {
+.item-2 {
     box-shadow: 2px 1px 2px rgb(236, 234, 230);
     border-radius: 12px;
     padding: 10px;
@@ -279,7 +293,7 @@ padding: 50px 150px;
     height: 100%;
     margin: 0;
     border-radius: 10px;
-    background-color: cadetblue;
+    /* background-color: cadetblue; */
 }
 .same-fact-container{
     padding: 20px;
